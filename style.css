@@ -11,11 +11,13 @@ body{
     text-align: center;
     height: 40vh;
     width: 30vw;
-   background-color: rgba(18, 17, 17, 0.3);
+   background-color: rgba(3, 116, 148, 0.7);
    border-radius: 25px;
 }
 button{
     position: absolute;
+    font-weight: bold;
+    font-size: large;
     
 }
 button:hover{
@@ -23,12 +25,15 @@ button:hover{
     
 }
 #yes{
+   
     left: 45%;
     width: 50px;
-    height: 30px
+    height: 30px;
+    background-color: rgb(188, 3, 3);
 }
 #No{
     left: 55%;
     width: 50px;
     height: 30px;
+    background-color: green;
 }
